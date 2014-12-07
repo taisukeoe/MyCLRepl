@@ -9,6 +9,7 @@ import scala.reflect.io.File
 import scala.tools.nsc.GenericRunnerCommand.{AsJar, AsScript, AsObject,Error}
 import scala.tools.nsc._
 
+//entry point to start my custom Scala REPL
 object MyMainGenericRunner extends MyMainGenericRunner {
   def main(args: Array[String]): Unit = {
     if (!process(args)) sys.exit(1)
