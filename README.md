@@ -24,7 +24,7 @@ This is a custom command example. You can do something from value:"hello" with c
 
 #How to use:
 ```scala
-$ git clone git:github.com/MyCLRepl
+$ git clone git:github.com/taisukeoe/MyCLRepl
 $ cd MyCLRepl
 $ sbt assembly
 $ java -jar target/scala-2.11/MyClassLoaderREPL-assembly-0.1-SNAPSHOT.jar
